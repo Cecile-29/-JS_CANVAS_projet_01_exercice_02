@@ -2,11 +2,9 @@ var car = document.getElementById('car').getContext('2d');
 car.fillStyle = 'grey';
 car.arc(70, 220, 20, 0, 2 * Math.PI);
 car.fill();
-
 car.fillStyle = 'grey';
 car.arc(220, 220, 20, 0, 2 * Math.PI);
 car.fill();
-
 car.fillStyle = 'lightgreen';
 car.beginPath();
 car.moveTo(70, 200);
